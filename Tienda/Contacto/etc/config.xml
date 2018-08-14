@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tienda_Contacto>
+            <version>1.0.0</version>
+        </Tienda_Contacto>
+    </modules>
+    <global>
+        <helpers>
+            <tienda_contacto>
+                <class>Tienda_Contacto_Helper</class>
+            </tienda_contacto>
+        </helpers>
+    </global>
+</config>

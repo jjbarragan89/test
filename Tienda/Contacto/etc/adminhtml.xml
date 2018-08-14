@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+    	<resources>
+    		<admin>
+    			<children>
+    				<system>
+    					<children>
+    						<config>
+    							<children>
+    								<tienda_contacto translate="title">
+    									<title>Tienda Contacto</title>
+    								</tienda_contacto>
+    							</children>
+    						</config>
+    					</children>
+    				</system>
+    			</children>
+    		</admin>
+    	</resources>
+    </acl>
+    <menu>
+    	<tienda_contacto>
+    		<title>menu tienda contacto</title>
+    		<sort_order>1</sort_order>
+    		<children>
+    			<config>
+    				<title>titulo</title>
+    				<sort_order>1</sort_order>
+		    		<action>/adminhtml/system_config/edit/section/tienda_contacto</action>
+    			</config>
+    		</children>
+    	</tienda_contacto>
+    </menu>
+</config>
+ 

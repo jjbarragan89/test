@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<config>
+	<tabs>
+		<tienda_contacto translate="label">
+			<label>Tienda Contacto</label>
+			<sort_order>1</sort_order>
+		</tienda_contacto>
+	</tabs>
+	<sections>
+		<tienda_contacto translate="label">
+			<tab>tienda_contacto</tab>
+			<label>Configure yourself</label>
+			<show_in_default>1</show_in_default>
+			<show_in_website>1</show_in_website>
+			<show_in_store>1</show_in_store>
+			<groups>
+				<basic_config translate="label">
+					<label>Basic config</label>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<fields>
+						<external_url translate="label">
+							<label>external url</label>
+							<frontend_type>text</frontend_type>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</external_url>
+					</fields>
+				</basic_config>
+			</groups>
+		</tienda_contacto>
+	</sections>
+</config>
